@@ -1,0 +1,142 @@
+/* 기본 설정 */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* 네비게이션 */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.logo img {
+  height: 28px;
+  margin-right: 8px;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  margin-left: 25px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.navbar ul li a:hover {
+  color: #0077cc;
+}
+
+/* 메인 이미지 */
+.hero img {
+  width: 100%;
+  display: block;
+}
+
+/* 콘텐츠 섹션 */
+.content-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 80px;
+}
+
+.content-section.reverse {
+  flex-direction: row-reverse;
+}
+
+.content-section .image img {
+  max-width: 450px;
+  border-radius: 6px;
+}
+
+.content-section .text {
+  max-width: 500px;
+  margin: 0 30px;
+}
+
+.content-section h2 {
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+
+.content-section p {
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background: #111;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background .3s;
+}
+
+.btn:hover {
+  background: #444;
+}
+
+/* 리스트 섹션 */
+.list-section {
+  padding: 60px 80px;
+  border-top: 1px solid #eee;
+}
+
+.list-section .header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-section h2 {
+  font-size: 1.8em;
+}
+
+.list-section .view-more {
+  text-decoration: none;
+  font-size: 0.9em;
+  color: #555;
+}
+
+.playlist {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.playlist li {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.playlist .date {
+  color: #888;
+  font-size: 0.9em;
+}
